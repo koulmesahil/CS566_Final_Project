@@ -77,6 +77,12 @@ def display_sorting_algorithm_layout():
 
         sorted_list = []
         x = np.arange(0, len(lst), 1)
+
+
+
+
+
+        
         m = st.markdown(
             """
         <style>
