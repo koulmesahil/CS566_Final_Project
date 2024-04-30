@@ -38,7 +38,7 @@ def display_sorting_algorithm_layout():
         """
         <h1 style='text-align: center; color: white;'>Welcome to the Sorting Algorithms Visualization tool 📊</h1>
         <p style='text-align: center; color: white;'>
-            lololol
+            🔍 Please choose the algorithms you would like to visualize 🔍
         </p>
         <hr style='border: 1px solid white;'>
         """,
