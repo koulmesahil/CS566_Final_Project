@@ -44,6 +44,19 @@ def display_sorting_algorithm_layout():
     input_elements = st.sidebar.empty()
     sorted_elements = st.sidebar.empty()
 
+
+
+    algorithms_to_run_style = st.markdown(
+        """
+        <style>
+        span[data-baseweb="tag"] {
+            background-color: blue !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     algorithms_to_run = st.sidebar.multiselect(
         "Please select algorithms to compare ",
         [
@@ -56,6 +69,7 @@ def display_sorting_algorithm_layout():
             "Heap Sort",
         ],
     )
+
 
     if len(algorithms_to_run) > 0:
         isAutoGenElement = st.sidebar.checkbox("Click for Random elements", value=True)
