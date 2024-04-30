@@ -36,8 +36,8 @@ def algorithm_to_run(x, lst, algo_title, time_interval_sec):
 def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
-        <h1 style='text-align: center; color: white;'>Welcome to the Sorting Algorithms Visualization tool 📊</h1>
-        <p style='text-align: center; color: white;'>Please choose the algorithms from the options below</p>
+        <h1 style='text-align: center; color: white;'>Welcome to the Sorting Algorithm Visualization tool 📊</h1>
+        <p style='text-align: center; color: white;'>Please choose the algorithms you would like to visualize</p>
         <hr style='border: 1px solid white;'>
     """,
         unsafe_allow_html=True,
