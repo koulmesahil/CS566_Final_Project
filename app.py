@@ -14,9 +14,9 @@ def main():
         orientation="vertical",
     )
 
-    if chooser == "Sorting Algorithms":
+    if chooser == "Sort Elements":
         display_sorting_algorithm_layout()
-    elif chooser == "Pathfinding Algorithms":
+    elif chooser == "Finding Shortest Path":
         display_pathfinding_layout()
 
 
