@@ -1,24 +1,8 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
-
 from layout.sorting_algorithms_layout import display_sorting_algorithm_layout
-from layout.pathfinding_algorithms_layout import display_pathfinding_layout
-
 
 def main():
-    chooser = option_menu(
-        menu_title=None,
-        options=["Sort Elements", "Finding Shortest Path"],
-        icons=["bar-chart-fill", "diagram-3-fill"],
-        default_index=0,
-        orientation="vertical",
-    )
-
-    if chooser == "Sort Elements":
-        display_sorting_algorithm_layout()
-    elif chooser == "Finding Shortest Path":
-        display_pathfinding_layout()
-
+    display_sorting_algorithm_layout()
 
 if __name__ == "__main__":
     main()
