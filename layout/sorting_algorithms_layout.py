@@ -50,7 +50,7 @@ def display_sorting_algorithm_layout():
         """
         <style>
         span[data-baseweb="tag"] {
-            background-color: red !important;
+            background-color: green !important;
         }
         </style>
         """,
