@@ -37,7 +37,7 @@ def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
         <h1 style='text-align: center; color: white;'>Welcome to the Sorting Algorithm Visualization tool 📊</h1>
-        <p style='text-align: center; color: white;'>Please choose the algorithms you would like to visualize</p>
+        <p style='text-align: center; color: white;'> 🔍 Please choose the algorithms from the options below 🔍</p>
         <hr style='border: 1px solid white;'>
     """,
         unsafe_allow_html=True,
