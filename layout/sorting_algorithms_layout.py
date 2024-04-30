@@ -37,7 +37,7 @@ def algorithm_to_run(x, lst, algo_title, time_interval_sec):
 def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
-        <h1 style='text-align: center; color: black;'>Visualizations of how different sorting algorithms work</h1>
+        <h1 style='text-align: center; color: orange;'>Visualizations of how different sorting algorithms work</h1>
     """,
         unsafe_allow_html=True,
     )
@@ -166,3 +166,17 @@ def display_sorting_algorithm_layout():
                             )
 
         plt.show()
+
+
+
+
+
+# Set the Streamlit theme
+custom_theme = {
+    "primaryColor": "#FF5733",
+    "backgroundColor": "#f0f0f0",
+    "secondaryBackgroundColor": "#d3d3d3",
+    "textColor": "#000000",
+    "font": "sans-serif",
+}
+st.set_theme(custom_theme)
