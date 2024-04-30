@@ -8,7 +8,7 @@ from layout.pathfinding_algorithms_layout import display_pathfinding_layout
 def main():
     chooser = option_menu(
         menu_title=None,
-        options=["Sorting Algorithms", "Pathfinding Algorithms"],
+        options=["Sort Elements", "Finding Shortest Path"],
         icons=["bar-chart-fill", "diagram-3-fill"],
         default_index=0,
         orientation="vertical",
