@@ -171,5 +171,4 @@ def display_sorting_algorithm_layout():
 
 
 
-st.set_theme("light")
 
