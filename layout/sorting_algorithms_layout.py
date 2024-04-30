@@ -37,7 +37,7 @@ def algorithm_to_run(x, lst, algo_title, time_interval_sec):
 def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
-        <h1 style='text-align: center; color: orange;'>Visualizations of how different sorting algorithms work</h1>
+        <h1 style='text-align: center; color: red;'>Visualizations of how different sorting algorithms work</h1>
     """,
         unsafe_allow_html=True,
     )
