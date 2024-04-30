@@ -15,7 +15,7 @@ from algorithms.sorting_algorithms.radix_sort import perform_and_display_radix_s
 from algorithms.sorting_algorithms.heap_sort import perform_and_display_heap_sort
 
 st.set_page_config(page_title="Matplotlib Plots", layout="centered")
-
+st.set_theme("light")
 
 def algorithm_to_run(x, lst, algo_title, time_interval_sec):
     if algo_title == "Bubble Sort":
@@ -37,7 +37,7 @@ def algorithm_to_run(x, lst, algo_title, time_interval_sec):
 def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
-        <h1 style='text-align: center; color: red;'>Visualizations of how different sorting algorithms work</h1>
+        <h1 style='text-align: center; color: red;'>Visualization of how different sorting algorithms work</h1>
     """,
         unsafe_allow_html=True,
     )
