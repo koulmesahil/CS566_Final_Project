@@ -11,7 +11,7 @@ def main():
         options=["Sorting Algorithms", "Pathfinding Algorithms"],
         icons=["bar-chart-fill", "diagram-3-fill"],
         default_index=0,
-        orientation="horizontal",
+        orientation="vertical",
     )
 
     if chooser == "Sorting Algorithms":
