@@ -37,7 +37,7 @@ def algorithm_to_run(x, lst, algo_title, time_interval_sec):
 def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
-        <h1 style='text-align: center; color: black;'>Sorting Algorithms Visualizer</h1>
+        <h1 style='text-align: center; color: black;'>Visualizations of how different sorting algorithms work</h1>
     """,
         unsafe_allow_html=True,
     )
@@ -46,7 +46,7 @@ def display_sorting_algorithm_layout():
     sorted_elements = st.sidebar.empty()
 
     algorithms_to_run = st.sidebar.multiselect(
-        "Choose Algorithms to run: ",
+        "Please select algorithms to compare ",
         [
             "Bubble Sort",
             "Selection Sort",
@@ -90,7 +90,7 @@ def display_sorting_algorithm_layout():
         }
 
         div.stButton > button:first-child {
-            background-color: #CDEBC8;
+            background-color: #006400;
             color: white;
             height: 3em;
             width: 12em;
@@ -100,7 +100,7 @@ def display_sorting_algorithm_layout():
         }
 
         div.stButton > button:hover {
-            background-color: #CDEBC8;
+            background-color: #006400;
             border:2px solid #000000;
         }
 
