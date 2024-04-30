@@ -90,7 +90,7 @@ def display_sorting_algorithm_layout():
         }
 
         div.stButton > button:first-child {
-            background-color: #FF4B4B;
+            background-color: #CDEBC8;
             color: white;
             height: 3em;
             width: 12em;
@@ -100,7 +100,7 @@ def display_sorting_algorithm_layout():
         }
 
         div.stButton > button:hover {
-            background-color: #FF4B4B;
+            background-color: #CDEBC8;
             border:2px solid #000000;
         }
 
