@@ -59,11 +59,11 @@ def display_sorting_algorithm_layout():
     )
 
     if len(algorithms_to_run) > 0:
-        isAutoGenElement = st.sidebar.checkbox("Auto Generate Elements?", value=True)
+        isAutoGenElement = st.sidebar.checkbox("Click for Random elements", value=True)
 
         if isAutoGenElement:
             x = np.linspace(0, 10, 100)
-            amount = st.sidebar.slider("Amount of Elements: ", 5, 30, step=1)
+            amount = st.sidebar.slider("Number of Elements: ", 5, 30, step=1)
             lst = np.random.randint(0, 100, amount)
         else:
             input_values_raw_string = st.sidebar.text_input("Enter Elements to sort")
