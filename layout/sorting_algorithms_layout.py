@@ -36,10 +36,13 @@ def algorithm_to_run(x, lst, algo_title, time_interval_sec):
 def display_sorting_algorithm_layout():
     heading = st.markdown(
         """
-        <h1 style='text-align: center; color: white;'>Visualization of how different sorting algorithms work</h1>
+        <h1 style='text-align: center; color: white;'>Welcome to the Sorting Algorithms Visualization tool 📊</h1>
+        <p style='text-align: center; color: white;'>Please choose the algorithms from the options below</p>
+        <hr style='border: 1px solid white;'>
     """,
         unsafe_allow_html=True,
     )
+
 
     input_elements = st.sidebar.empty()
     sorted_elements = st.sidebar.empty()
@@ -72,17 +75,6 @@ def display_sorting_algorithm_layout():
 
 
     if len(algorithms_to_run) > 0:
-        checkbox_color = st.markdown(
-            """
-            <style>
-            /* Custom CSS styles */
-            .checkbox-component {
-                color: green; /* Change the color of the checkbox */
-            }
-            </style>
-        """,
-            unsafe_allow_html=True,
-        )
         
         isAutoGenElement = st.sidebar.checkbox("Click for Random elements", value=True)
 
