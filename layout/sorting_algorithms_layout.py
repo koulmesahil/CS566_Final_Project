@@ -77,12 +77,13 @@ def display_sorting_algorithm_layout():
             <style>
             /* Custom CSS styles */
             .checkbox-component {
-                color: blue; /* Change the color of the checkbox */
+                color: green; /* Change the color of the checkbox */
             }
             </style>
-            """,
+        """,
             unsafe_allow_html=True,
         )
+        
         isAutoGenElement = st.sidebar.checkbox("Click for Random elements", value=True)
 
         if isAutoGenElement:
