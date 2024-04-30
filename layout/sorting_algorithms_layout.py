@@ -171,12 +171,5 @@ def display_sorting_algorithm_layout():
 
 
 
-# Set the Streamlit theme
-custom_theme = {
-    "primaryColor": "#FF5733",
-    "backgroundColor": "#f0f0f0",
-    "secondaryBackgroundColor": "#d3d3d3",
-    "textColor": "#000000",
-    "font": "sans-serif",
-}
-st.set_theme(custom_theme)
+st.set_theme("light")
+
